@@ -1,7 +1,7 @@
 // import using require
 
 // declare class
-var Shape= require('./shape);
+var Shape= require(`./shape `);
  class Circle extends Shape{
                    constructor(name){
   super(name);
